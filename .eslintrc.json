@@ -1,0 +1,14 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "extends": ["prettier", "standard", "eslint-config-prettier"],
+  "plugins": ["prettier"],
+  "rules": { "prettier/prettier": "error" },
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "sourceType": "module"
+  }
+}
+
